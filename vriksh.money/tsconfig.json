@@ -3,9 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
@@ -13,6 +11,14 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+    "app/index.jsx",
+    "app/(auth)/_layout.jsx",
+    "app/(auth)/sign-up.jsx",
+    "app/(auth)/sign-in.jsx",
+    "lib/useAppwrite.js",
+    "lib/appwrite.js",
+    "constants/images.js",
+    "constants/icon.js"
   ]
 }
