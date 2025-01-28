@@ -20,5 +20,5 @@
     "lib/appwrite.js",
     "constants/images.js",
     "constants/icon.js"
-  ]
+, "app/(tabs)/_layout.jsx"  ]
 }
